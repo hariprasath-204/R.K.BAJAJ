@@ -15,6 +15,7 @@ CREATE TABLE users (
     role ENUM('user','admin') DEFAULT 'user',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
  
 -- ----------------------
 -- Categories Table
@@ -184,4 +185,4 @@ UPDATE users SET role='admin' WHERE email='admin@rk.com';
 
 
 
-ngrok http 3000
+
